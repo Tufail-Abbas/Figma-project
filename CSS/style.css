@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'POPPINS', sans-serif;
+
+}
+
+body {
+    background-color: rgb(25, 25, 29);
+}
+
+/* -----------basic css properties-------------- */
+.wrapper {
+    max-width: 1440px;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.display-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-direction {
+    flex-direction: column;
+}
+
+/* -----------basic css end-------------- */
+.header {
+    background-image: url('../images/first-bg/image\ 4.png');
+    max-width: 1440px;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+.header::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.081);
+}
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 26px 70px;
+    z-index: 19;
+    border-bottom: 1px solid white;
+}
+.shop {
+    width: 226px;
+}
+.shop .shop-list-item {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+
+.case {
+    max-width: 218px;
+    cursor: pointer;
+}
+
+.explore {
+    width: 158px;
+}
+
+.explore .explore-list-item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    cursor: pointer;
+}
+.explore i {
+    cursor: pointer;
+}
+.header .your_home .home-title {
+    font-family: Museo Sans;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    z-index: 12;
+}
+.header .your_home .home-subtitle {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    z-index: 12;
+    text-align: center;
+    margin: 16px 0px 30px 0px;
+}
+.header .your_home .home-desc {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    z-index: 12;
+}
+/* -----------hero-section-start--------- */
+.hero-batch {
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+.hero-text {
+    position: relative;
+}
+
+.marietext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#idot {
+    position: relative;
+
+}
+
+.img .dots {
+    position: absolute;
+    top: -5px;
+    left: 0;
+
+
+}
+
+.clarietext {
+    margin-left: 5px;
+}
+
+.clarietext .sec {
+    margin-top: -3px;
+}
+
+.hero-desc-img {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    color: white;
+
+}
+
+.hero-desc .title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 30px;
+
+}
+
+.hero-section #two {
+    margin-top: 1px;
+}
+
+/* -----------hero-section-end--------- */
+/* -----------shop-sections-----? */
+.shopAll {
+    padding: 60px 30px;
+}
+
+.shops {
+    max-width: 1300px;
+}
+
+.shops .title {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    color: white;
+
+}
+
+.substitle {
+    margin-bottom: 30px;
+}
+
+.substitle .title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+}
+
+.substitle .shop_link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-align: right;
+    color: white;
+    position: relative;
+    margin-top: 6px;
+}
+
+.substitle .shop_link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 1.2px;
+    background-color: #FFFFFF;
+}
+
+.shop-img {
+    padding: 10px;
+    width: 310px;
+
+}
+
+.shop-img .shop_img-title {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: white;
+
+}
+
+/* --------------shope-section-end-- */
+/* -------------OUR_EXQUISITE_COLLECTIONS-section-start---- */
+.OUR_EXQUISITE_COLLECTIONS {
+    background-image: url(../images/OUR_EXQUISITE/Group\ 1073714458.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.our-exquiste {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.exquist {
+    width: 486px;
+
+}
+
+.exquist .title {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.exquist .sub-title {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: 6px 0px 24pxs 0px;
+    margin: 2px 0px 24px 0px;
+
+}
+
+.exquist .exq-btn {
+    width: 236px;
+    height: 39px;
+    padding: 13px, 40px, 13px, 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+
+
+
+}
+
+.exquist .exq-btn a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* -------------OUR_EXQUISITE_COLLECTIONS-section-end---- */
+/* -------------OUR_library-section-start---- */
+.ourlibrary {
+    padding: 70px 0px;
+    color: white;
+
+}
+
+.ourlibrary .logo {
+    width: 55px;
+    height: 40px;
+
+}
+
+.our-library .ourlibrary-title {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin: 30px 0px 6px 0px;
+
+}
+
+.our-library .sub-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.our-library .ourlib-tag a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.our-library .ourlib-tag a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.libray-imgs .library-img1 {
+    width: 640px;
+    padding: 0px 6px;
+
+}
+.libray-imgs .libraary-imgpar2 {
+    width: 650px;
+    padding: 0px 6px;
+}
+
+.libray-imgs .library-img2 {
+    width: 99%;
+    margin-bottom: 10px;
+    position: relative;
+
+
+}
+
+.libray-imgs .library-img2 .over {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.over .title {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: white;
+    margin-bottom: 6px;
+}
+.over .sub-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: white;
+}
+
+/* -------------OUR_library-section-end---- */
