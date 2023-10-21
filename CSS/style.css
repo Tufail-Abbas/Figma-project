@@ -579,3 +579,73 @@ color: #FFFFFF;
 
 }
 /* --------------our-portfolio-section-end---- */
+/* --------------our-experience-section-start---- */
+
+.our-experience .title{
+
+font-size: 22px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0.08em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.our-experience .subtitle{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    text-align: center;
+color: #FFFFFF;
+
+}
+.experience-img{
+    margin-top: 30px;
+}
+
+.our-experience .exp-img1{
+    width: 640px;
+    position: relative;
+}
+.our-experience .exp-img1-layer{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#FFFFFF;
+    display: flex;
+}
+/* .our-experience .exp-img1:hover .exp-img1-laer {
+display: flex;
+} */
+.exp-img1-layer .title{
+font-size: 22px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0.08em;
+text-align: center;
+}
+.exp-img1-layer .sub-title{
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0.06em;
+text-align: center;
+
+
+}
+.our-experience .exp-img2-1{
+    width: 639px;
+    margin-left: 21px;
+}
+.our-experience .exp-img2-1:not(:last-child){
+    margin-bottom: 21px;
+  
+}
+/* --------------our-experience-section-end---- */
